@@ -6,8 +6,16 @@ h1, .h1 {
   font-family: "DM Serif Display", serif;
 }
 
-.nav-height {
-  height: 60px;
+.body-h {
+  height: 300px;
+}
+
+.body-h-1 {
+  height: 130px;
+}
+
+.img-w {
+  width: 90px;
 }
 
 /*!
