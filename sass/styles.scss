@@ -1,6 +1,20 @@
-.col-width{
-    width: 300px;
+$font-family-sans-serif: 'Karla', sans-serif;
+$font-family-monospace: 'DM Serif Display', serif;
+// colors
+$primary:       #2c2640;
+$secondary:     #ffffff;
+$success:       #fafafa;
+
+*{
+    font-family: $font-family-sans-serif;
 }
+h1{
+    font-family: $font-family-monospace;
+}
+.nav-height{
+    height: 60px;
+}
+
 
 
 
