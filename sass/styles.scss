@@ -4,6 +4,22 @@ $font-family-monospace: 'DM Serif Display', serif;
 $primary:       #2c2640;
 $secondary:     #ffffff;
 $success:       #fafafa;
+// positions
+$position-values: (
+  0: 0,
+  10: 10%,
+  20: 20%,
+  30: 30%,
+  40: 40%,
+  50: 50%,
+  100: 100%
+);
+// hovers
+$link-hover-color: #212529;
+$link-color: gray;
+$link-hover-decoration: underline;
+$link-decoration: none;
+$nav-link-hover-color: #212529;
 
 *{
     font-family: $font-family-sans-serif;
@@ -11,15 +27,74 @@ $success:       #fafafa;
 h1{
     font-family: $font-family-monospace;
 }
-.body-h{
-    height: 300px;
-}
+
 .body-h-1{
     height: 130px;
 }
-.img-w{
-    width: 90px
+.color-footer{
+    $link-color: #212529;
 }
+
+
+
+
+
+
+@media (min-width: 1000px){
+    .body-h1{
+        height: 18.75rem;
+    }
+    .absolute-position{
+        position: absolute;
+    }
+    .relative-position{
+        position: relative;
+    }
+    .margin-r{
+        margin-right: 100px;
+    }
+    .margin-l{
+        margin-left: 100px;
+    }
+    .margin-t{
+        margin-top: 100px;
+    }
+    .margin-b{
+        margin-bottom: 100px;
+    }
+    .visibility-1{
+        visibility: hidden;
+    }
+}
+@media (max-width: 1200px) {
+    .body-h{
+        height: 9.375rem;
+    }
+}
+
+@media (max-width: 999px){
+    .visibility{
+        visibility: hidden;
+    }
+    .body-h{
+        height: 9.375rem;
+    }
+    .centrado{
+        display: flex;
+        justify-content: center;
+    }
+    .centrado-2{
+        text-align: center;
+    }
+    .margin-b{
+        margin-bottom: 100px;
+    }
+    .margin_b{
+        margin-bottom: 50px;
+    }
+
+}
+
 
 
 
