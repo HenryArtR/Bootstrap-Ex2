@@ -14,12 +14,6 @@ h1, .h1 {
   .body-h1 {
     height: 18.75rem;
   }
-  .absolute-position {
-    position: absolute;
-  }
-  .relative-position {
-    position: relative;
-  }
   .margin-r {
     margin-right: 100px;
   }
@@ -66,6 +60,22 @@ h1, .h1 {
   }
   .margin_b {
     margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 770px) {
+  .margin-nav {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 770px) {
+  .toggler-edit {
+    height: 500px;
+    background: #2c2640;
+  }
+  .color-nav {
+    color: white;
   }
 }
 

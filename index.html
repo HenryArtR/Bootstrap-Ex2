@@ -17,43 +17,23 @@
 <body>
   <!-- Nav -->
   <div class="container">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 border py-4">
-          <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-between">
-              <div class="margin-l">
-                <img src="images/logo.svg" alt="">
-              </div>
-              <div class="margin-r">
-                <nav class="navbar navbar-expand-lg navbar-light fw-bold">
-                  <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#">HOW WE WORK</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">ACCOUNT</a>
-                        </li>
-                        <li class="nav-item">
-                          <button type="button" class="btn btn-outline-dark">VIEW PLANS</button>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-              </div>
-            </div>
+      <!-- nav toggler -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="#" class="navbar-brand margin-l"><img src="images/logo.svg" alt=""></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fw-bold margin-r" id="navbarTogglerDemo02">
+          <div class="navbar-nav ms-auto text-center">
+            <a class="nav-item nav-link" href="#">HOW WE WORK</a>
+            <a class="nav-item nav-link" href="#">BLOG</a>
+            <a class="nav-item nav-link" href="#">ACCOUNT</a>
           </div>
-        </div>
-      </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-outline-dark">VIEW PLANS</button>
+          </div>
+        </div>       
+      </nav>
     </div>
       <!-- Header -->
     <div class="container bg-primary">
@@ -142,17 +122,17 @@
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
             <div class="row col-10 bg-primary position-relative">
-              <img src="images/bg-pattern-how-we-work-desktop.svg" class="position-absolute h-100 w-50 end-0 visibility" style="z-index: 0;" alt="">
+              <img src="images/bg-pattern-how-we-work-desktop.svg" class="position-absolute h-100 w-50 end-0 visibility" alt="">
               <img src="images/bg-pattern-how-we-work-mobile.svg" class="position-absolute bottom-0 end-0 h-100 visibility-1" style="width: 300px;" alt="">
               <div class="col-12 col-lg-8 text-secondary centrado-2">
                 <div class="m-5">
                   <h1 class="display-4">Find out more about how we work</h1>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
-                <span class="m-5">
-                  <button type="button" class="btn btn-outline-light">HOW WE WORK</button>
-                </span>
+              <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center position-relative">
+                <div class="m-5">
+                  <button type="button" class="btn btn-outline-light position-absolute bottom-40 end-30">HOW WE WORK</button>
+                </div>
               </div>
             </div>
             
@@ -165,42 +145,46 @@
     <!-- footer -->
     <div class="container bg-success position-relative">
       <img src="images/bg-pattern-footer-desktop.svg" class="position-absolute" style="width: 40%; z-index: 0;" alt="">
-      <div class="row">
-        <div class="col-12 py-4">
+      <div class="row justify-content-center">
+        <div class="col-11">
           <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-between">
-              <div class="margin-l mt-4 mb-2 ps-2 position-relative">
-                <img src="images/logo.svg" class="position-absolute" alt="">
-              </div>
-              <div class="small collaps margin-r">
-                <ul class="nav justify-content-end align-items-center ">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">
-                      <img src="images/icon-facebook.svg" alt="">
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <img src="images/icon-twitter.svg" alt="">
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <img src="images/icon-pinterest.svg" alt="">
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <img src="images/icon-instagram.svg" alt="">
-                    </a>
-                  </li>
-                </ul>
+            <div class="col-12 col-lg-8 my-5">
+              <div class="centrado-2 ms-4">
+                <img src="images/logo.svg" alt="">
               </div>
             </div>
+            <div class=" col-12 col-lg-4 d-flex justify-content-center align-items-center">
+              <ul class="nav centrado my-4">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <img src="images/icon-facebook.svg" alt="">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/icon-twitter.svg" alt="">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/icon-pinterest.svg" alt="">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img src="images/icon-instagram.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
+          
         </div>
+        
       </div>
-  
+      <div class="col-12 d-flex justify-content-center">
+        <div class="col-10 border-top"></div>
+      </div>
       <div class="row row-cols-4 justify-content-center">
         <div class="col-12 col-lg-2 mx-4">
           <h6 class="text-muted mt-5 mb-4 small centrado">OUR COMPANY</h6>
@@ -267,7 +251,7 @@
       </div>
     </div>
   </div>
-  
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
